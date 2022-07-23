@@ -15,7 +15,7 @@ import animationData from "../Animations/typing.json";
 import io from "socket.io-client";
 import UpdateGroupChatModal from "./Miscellaneous/UpdateGroupChatModal";
 import { ChatState } from "../Context/ChatProvider";
-const ENDPOINT = "http://localhost:8080";
+const ENDPOINT = "https://127.0.0.1:8080/";
 var socket, selectedChatCompare;
 
 const SingleChat = ({ fetchAgain, setFetchAgain }) => {
@@ -167,7 +167,7 @@ const SingleChat = ({ fetchAgain, setFetchAgain }) => {
             pb={3}
             px={2}
             w="100%"
-            fontFamily="Work sans"
+            fontFamily="Open Sans"
             d="flex"
             justifyContent={{ base: "space-between" }}
             alignItems="center"
@@ -252,7 +252,7 @@ const SingleChat = ({ fetchAgain, setFetchAgain }) => {
       ) : (
         // to get socket.io on same page
         <Box d="flex" alignItems="center" justifyContent="center" h="100%">
-          <Text fontSize="3xl" pb={3} fontFamily="Work sans">
+          <Text fontSize="3xl" pb={3} fontFamily="Open Sans">
             Click on a user to start chatting
           </Text>
         </Box>

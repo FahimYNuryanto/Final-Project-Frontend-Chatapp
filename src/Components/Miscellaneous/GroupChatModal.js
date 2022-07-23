@@ -120,7 +120,7 @@ const handleGroup = (userToAdd) => {
           <ModalContent>
             <ModalHeader
               fontSize="35px"
-              fontFamily="Work sans"
+              fontFamily="Open Sans"
               d="flex"
               justifyContent="center"
             >

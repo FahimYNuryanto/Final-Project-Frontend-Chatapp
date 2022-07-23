@@ -26,7 +26,7 @@ const Homepage = () => {
     borderRadius="lg"
     borderWidth="1px"
     >
-      <Text fontSize="4xl" fontFamily="Open Sans" color="black">KXXS</Text>
+      <Text fontSize="4xl" fontFamily="Open Sans" color="black" >KXXS</Text>
     </Box>
     <Box bg="white" w="100%" p= {4} borderRadius="lg" color="black" borderWidth="1px">
     <Tabs variant='soft-rounded'>
